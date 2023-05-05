@@ -48,7 +48,7 @@ const Checkout = () => {
           //alert("Pago realizado correctamente");
 
           dispatch(deleteCartItems([]));
-          Confetti();
+          //Confetti();
           //alert("pago realizado correctamante")
           return navigate("/");
         } else {
